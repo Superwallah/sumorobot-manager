@@ -189,7 +189,7 @@ class SumoManager(QMainWindow):
             self.wifi_select.clear()
             self.wifi_select.addItems(data)
             self.wifi_select.setEnabled(True)
-            self.show_message('info', 'Successfuly loaded WiFi networks')
+            self.show_message('info', 'Successfully loaded WiFi networks')
             self.wifi_select.setStyleSheet('background-color: #2d3252;')
         elif isinstance(data, str):
             self.serial_image.setPixmap(QPixmap(USB_CON_IMG))
